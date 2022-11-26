@@ -1,0 +1,40 @@
+.text-center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  margin: 5px 10px;
+}
+.row input {
+  margin: 12px 0;
+  padding: 10px 10px;
+  border: 2px solid black;
+  border-radius: 9px;
+  font-size: 1.35rem;
+}
+
+.buttons {
+  padding: 20px;
+  margin: 0 3px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  width: 67px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.color {
+  color: rgb(255, 136, 0);
+}
+#equal {
+  background-color: rgb(255, 136, 0);
+  color: white;
+}
