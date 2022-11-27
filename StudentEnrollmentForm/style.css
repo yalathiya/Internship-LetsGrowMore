@@ -1,0 +1,38 @@
+.container {
+  border: 2px solid rgb(214, 37, 37);
+}
+.title {
+  font-size: 25px;
+  text-align: center;
+  border: 2px solid rgb(214, 37, 37);
+}
+.body-part {
+  display: flex;
+}
+.registration-details {
+  /* display: flex; */
+  flex: left;
+  border: 2px solid rgb(214, 37, 37);
+}
+.display {
+  /* display: flex; */
+  flex: right;
+  border: 2px solid rgb(214, 37, 37);
+}
+.display-title {
+  font-size: 25px;
+  text-align: center;
+  border: 2px solid rgb(214, 37, 37);
+}
+.display-box {
+  display: flex;
+  border: 2px solid rgb(214, 37, 37);
+}
+.student-info {
+  flex: left;
+  border: 2px solid rgb(214, 37, 37);
+}
+.student-image {
+  flex: right;
+  border: 2px solid rgb(214, 37, 37);
+}
