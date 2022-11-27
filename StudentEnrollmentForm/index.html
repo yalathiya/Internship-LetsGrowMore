@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
     <title>Student Enrollment Form</title>
   </head>
@@ -14,20 +15,32 @@
         <div class="registration-details">
           <form>
             <div class="user-box">
-              <label>Name</label>
-              <input type="text" name="" required="" />
+              <label
+                >Name<input type="text" name="" required="" class="name-input"
+              /></label>
             </div>
             <div class="user-box">
-              <label>Email</label>
-              <input type="text" name="" required="" />
+              <label
+                >Email
+                <input type="text" name="" required="" class="email-input" />
+              </label>
             </div>
             <div class="user-box">
-              <label>Website</label>
-              <input type="text" name="" required="" />
+              <label
+                >Website
+                <input type="text" name="" required="" class="website-input" />
+              </label>
             </div>
             <div class="user-box">
-              <label>Image Link</label>
-              <input type="text" name="" required="" />
+              <label
+                >Image Link
+                <input
+                  type="text"
+                  name=""
+                  required=""
+                  class="image-link-input"
+                />
+              </label>
             </div>
             <div class="user-box">
               <label>Gender</label>
@@ -46,12 +59,16 @@
               <label for="html">CSS</label>
             </div>
           </form>
+          <div class="form-footer">
+            <button type="submit" id="submit-button">Enroll Student</button>
+            <button type="button" id="clear-button">Clear</button>
+          </div>
         </div>
         <div class="display">
           <div class="display-title">Enrolled Students</div>
           <div class="display-box">
             <div class="student-info">
-              <div class="student-name">John Doe</div>
+              <b><div class="student-name">John Doe</div></b>
               <div class="student-gender">Male</div>
               <div class="student-email">john.doe@gmail.com</div>
               <div class="student-website">www.johndoe.com</div>
@@ -61,6 +78,8 @@
               <img
                 src="https://png.pngtree.com/png-vector/20190118/ourlarge/pngtree-vector-male-student-icon-png-image_326762.jpg"
                 alt=""
+                width="150"
+                height="150"
               />
             </div>
           </div>
