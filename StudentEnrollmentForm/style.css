@@ -64,23 +64,34 @@ body {
   flex: right;
   border: 2px solid rgb(214, 37, 37);
   border-radius: 5px;
+  /* margin-right: 0px; */
 }
 .user-box {
   margin: 7px 7px 7px 7px;
 }
 .name-input {
   margin-left: 45px;
+  border-radius: 4px;
 }
 .email-input {
   margin-left: 44px;
+  border-radius: 4px;
 }
 .website-input {
   margin-left: 20px;
+  border-radius: 4px;
 }
 .image-link-input {
   margin-left: 2px;
+  border-radius: 4px;
 }
-#submit-button {
+#Male {
+  margin-left: 30px;
+}
+#java {
+  margin-left: 42px;
+}
+#submitButton {
   width: 130px;
   height: 40px;
   font-size: 15px;
@@ -94,7 +105,11 @@ body {
   border: rgb(77, 175, 255);
   border-radius: 10px;
 }
-#clear-button {
+#submitButton:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+#clearButton {
   width: 130px;
   height: 40px;
   font-size: 16px;
@@ -103,4 +118,8 @@ body {
   color: white;
   border: rgb(255, 77, 77);
   border-radius: 10px;
+}
+#clearButton:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
 }
