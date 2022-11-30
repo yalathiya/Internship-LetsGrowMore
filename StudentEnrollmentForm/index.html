@@ -16,19 +16,36 @@
           <form>
             <div class="user-box">
               <label
-                >Name<input type="text" name="" required="" class="name-input"
+                >Name<input
+                  type="text"
+                  name=""
+                  required=""
+                  class="name-input"
+                  id="nameInput"
               /></label>
             </div>
             <div class="user-box">
               <label
                 >Email
-                <input type="text" name="" required="" class="email-input" />
+                <input
+                  type="text"
+                  name=""
+                  required=""
+                  class="email-input"
+                  id="emailInput"
+                />
               </label>
             </div>
             <div class="user-box">
               <label
                 >Website
-                <input type="text" name="" required="" class="website-input" />
+                <input
+                  type="text"
+                  name=""
+                  required=""
+                  class="website-input"
+                  id="websiteInput"
+                />
               </label>
             </div>
             <div class="user-box">
@@ -39,6 +56,7 @@
                   name=""
                   required=""
                   class="image-link-input"
+                  id="imageInput"
                 />
               </label>
             </div>
@@ -46,7 +64,7 @@
               <label>Gender</label>
               <input type="radio" id="Male" value="Male" />
               <label for="html">Male</label>
-              <input type="radio" id="Male" value="Male" />
+              <input type="radio" id="Female" value="Female" />
               <label for="html">Female</label><br />
             </div>
             <div class="user-box">
@@ -60,26 +78,43 @@
             </div>
           </form>
           <div class="form-footer">
-            <button type="button" id="submitButton">Enroll Student</button>
-            <button type="button" id="clearButton">Clear</button>
+            <button onclick="submitFunction()" type="button" id="submitButton">
+              Enroll Student
+            </button>
+            <button onclick="clearFunction()" type="button" id="clearButton">
+              Clear
+            </button>
           </div>
         </div>
         <div class="display">
           <div class="display-title">Enrolled Students</div>
           <div class="display-box" id="studentColumn">
             <div class="student-info">
-              <b><div class="student-name" id="student-name">John Doe</div></b>
-              <div class="student-gender" id="studentgender">Male</div>
-              <div class="student-email">john.doe@gmail.com</div>
-              <div class="student-website">www.johndoe.com</div>
-              <div class="skills">Java, HTML</div>
+              <b
+                ><div class="student-name" id="studentName">
+                  <!-- John Doe -->
+                </div></b
+              >
+              <div class="student-gender" id="studentGender">
+                <!-- Male -->
+              </div>
+              <div class="student-email" id="studentEmail">
+                <!-- john.doe@gmail.com -->
+              </div>
+              <div class="student-website" id="studentWebsite">
+                <!-- www.johndoe.com -->
+              </div>
+              <div class="skills" id="studentSkills">
+                <!-- Java, HTML -->
+              </div>
             </div>
             <div class="student-image">
               <img
                 src="https://png.pngtree.com/png-vector/20190118/ourlarge/pngtree-vector-male-student-icon-png-image_326762.jpg"
-                alt=""
+                alt="Student Photo"
                 width="150"
                 height="150"
+                id="studentImage"
               />
             </div>
           </div>
